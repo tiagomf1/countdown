@@ -11,13 +11,14 @@
         
         
         <?php
+        $descricao='25 de Dezembro às 20h';
         $datalimite="December 25, 2016 8:00 PM";
         $date = strtotime($datalimite);
         $remaining = $date - time();
   
         ?>
         
-        <div>Descrição: <b>Tempo para</b> <?php echo $datalimite ?> </div>
+        <div>Descrição: <b>Tempo para</b> <?php echo $descricao ?> </div>
         <div class="your-clock" style="margin-top:100px;"></div>
         
         
