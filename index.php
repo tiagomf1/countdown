@@ -25,9 +25,11 @@
         
         <script type="text/javascript">
 	var clock = $('.your-clock').FlipClock(<?php echo $remaining ?>, {
-	clockFace: 'DailyCounter',	
-        countdown: true
+	clockFace: 'DailyCounter',
+        countdown: true,
+        language:'pt-br',
 	});
+        clock.loadLanguage('Portuguese');
         </script>
 
     </body>
